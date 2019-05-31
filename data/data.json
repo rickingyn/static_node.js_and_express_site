@@ -1,0 +1,89 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "A Random Quote Generator",
+            "description": "Techdegree - Unit 1 Project: A web application to randomly generate a quote.",
+            "technologies": [
+                "list technologies used in the project",
+                "JavaScript syntax",
+                "variables",
+                "loops",
+                "conditional statements",
+                "object literals"
+            ],
+            "live_link": "https://rickingyn.github.io/a_random_quote_generator/",
+            "github_link": "https://github.com/rickingyn/a_random_quote_generator",
+            "image_urls": [
+                "/static/img/thumbnail/project1-thumbnail.jpg",
+                "/static/img/project1-1.jpg",
+                "/static/img/project1-2.jpg"
+            ]
+        },
+        {
+            "id": 1,
+            "project_name": "List Pagination and Filtering Project",
+            "description": "Techdegree - Unit 2 Project: A web application that uses \"pagination\" to enhance the usability of a web page.",
+            "technologies": [
+                "Pagination"
+            ],
+            "live_link": "https://rickingyn.github.io/list_pagination_and_filtering/",
+            "github_link": "https://github.com/rickingyn/list_pagination_and_filtering",
+            "image_urls": [
+                "/static/img/thumbnail/project2-thumbnail.jpg",
+                "/static/img/project2-1.jpg",
+                "/static/img/project2-2.jpg"
+            ] 
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "Techdegree - Unit 3 Project: A web application that uses JavaScript to enahnce an interactive registration form for a fictional conference called \"FullStack Conf.\"",
+            "technologies": [
+                "Forms"
+            ],
+            "live_link": "https://rickingyn.github.io/interactive_form/",
+            "github_link": "https://github.com/rickingyn/interactive_form",
+            "image_urls": [
+                "/static/img/thumbnail/project3-thumbnail.jpg",
+                "/static/img/project3-1.jpg",
+                "/static/img/project3-2.jpg"
+            ] 
+        },
+        {
+            "id": 3,
+            "project_name": "OOP Game Show App",
+            "description": "Techdegree - Unit 4 Project: A browser-based, word guessing game.",
+            "technologies": [
+                "Object-Oriented Programming"
+            ],
+            "live_link": "https://rickingyn.github.io/OOP_game_show_app/",
+            "github_link": "https://github.com/rickingyn/OOP_game_show_app",
+            "image_urls": [
+                "/static/img/thumbnail/project4-thumbnail.jpg",
+                "/static/img/project4-1.jpg",
+                "/static/img/project4-2.jpg",
+                "/static/img/project4-3.jpg",
+                "/static/img/project4-5.jpg",
+                "/static/img/project4-4.jpg"
+            ] 
+        },
+        {
+            "id": 4,
+            "project_name": "Public API Requests",
+            "description": "Techdegree - Unit 5 Project: A web application that uses a random user generator API",
+            "technologies": [
+                "API Requests",
+                "Fetch",
+                "Promises"
+            ],
+            "live_link": "https://rickingyn.github.io/public_api_requests/",
+            "github_link": "https://github.com/rickingyn/public_api_requests",
+            "image_urls": [
+                "/static/img/thumbnail/project5-thumbnail.jpg",
+                "/static/img/project5-1.jpg",
+                "/static/img/project5-2.jpg"
+            ] 
+        }
+    ]
+}
