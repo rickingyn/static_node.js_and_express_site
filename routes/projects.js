@@ -1,8 +1,14 @@
+/**
+ * require dependencies
+ */
 const express = require('express');
 const router = express.Router();
+// require the projects object in the data.json file
 const { projects } = require('../data/data.json');
 
+// route to project page with ID
 router.get('/:id', (req, res) => {
+    // assign project object's properties to variables; pass into data variable to pass into project template
     const { id } = req.params;
     const { project_name } = projects[id];
     const { description } = projects[id];
@@ -16,4 +22,5 @@ router.get('/:id', (req, res) => {
     res.render('project', data);
 });
 
+// export module
 module.exports = router;

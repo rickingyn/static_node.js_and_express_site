@@ -5,12 +5,13 @@
             "project_name": "A Random Quote Generator",
             "description": "Techdegree - Unit 1 Project: A web application to randomly generate a quote.",
             "technologies": [
-                "list technologies used in the project",
-                "JavaScript syntax",
-                "variables",
-                "loops",
-                "conditional statements",
-                "object literals"
+                "Arrays",
+                "Conditional Statements",
+                "Functions",
+                "JavaScript Syntax",
+                "Loops",
+                "Object Literals",
+                "Variables"
             ],
             "live_link": "https://rickingyn.github.io/a_random_quote_generator/",
             "github_link": "https://github.com/rickingyn/a_random_quote_generator",
@@ -25,7 +26,12 @@
             "project_name": "List Pagination and Filtering Project",
             "description": "Techdegree - Unit 2 Project: A web application that uses \"pagination\" to enhance the usability of a web page.",
             "technologies": [
-                "Pagination"
+                "Arrow Syntax Functions",
+                "DOM Manipulation",
+                "ES6",
+                "Event Handler",
+                "Pagination",
+                "Template Literals"
             ],
             "live_link": "https://rickingyn.github.io/list_pagination_and_filtering/",
             "github_link": "https://github.com/rickingyn/list_pagination_and_filtering",
@@ -40,7 +46,11 @@
             "project_name": "Interactive Form",
             "description": "Techdegree - Unit 3 Project: A web application that uses JavaScript to enahnce an interactive registration form for a fictional conference called \"FullStack Conf.\"",
             "technologies": [
-                "Forms"
+                "CSS Flexbox",
+                "CSS Layout",
+                "HTML Forms",
+                "jQuery",
+                "Regular Expressions"
             ],
             "live_link": "https://rickingyn.github.io/interactive_form/",
             "github_link": "https://github.com/rickingyn/interactive_form",
@@ -55,6 +65,11 @@
             "project_name": "OOP Game Show App",
             "description": "Techdegree - Unit 4 Project: A browser-based, word guessing game.",
             "technologies": [
+                "Array Iteration Methods",
+                "Callback Functions",
+                "Event Delegation",
+                "Getter and Setter Methods",
+                "JavaScript Classes",
                 "Object-Oriented Programming"
             ],
             "live_link": "https://rickingyn.github.io/OOP_game_show_app/",
@@ -73,9 +88,17 @@
             "project_name": "Public API Requests",
             "description": "Techdegree - Unit 5 Project: A web application that uses a random user generator API",
             "technologies": [
-                "API Requests",
+                "AJAX and APIs",
+                "Asynchronous Programming",
+                "Async/Await",
                 "Fetch",
-                "Promises"
+                "Git",
+                "HTTP Requests",
+                "JSON",
+                "Query Strings",
+                "Promises",
+                "Then/Catch Methods",
+                "Try/Catch Methods"
             ],
             "live_link": "https://rickingyn.github.io/public_api_requests/",
             "github_link": "https://github.com/rickingyn/public_api_requests",
