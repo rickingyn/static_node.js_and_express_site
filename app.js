@@ -9,6 +9,7 @@ const projectsRoute = require('./routes/projects');
 const app = express();
 
 // use static route to serve static files located in public folder
+// app.use(express.static('public'));
 app.use('/static', express.static('public'));
 
 // set view engine to Pug

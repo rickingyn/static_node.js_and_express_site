@@ -3,8 +3,9 @@
  */
 const express = require('express');
 const router = express.Router();
+
 // require the projects object in the data.json file
-const { projects } = require('../data/data.json');
+const { projects } = require('../data.json');
 
 // route to project page with ID
 router.get('/:id', (req, res) => {

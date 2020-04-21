@@ -5,6 +5,9 @@ html(class="no-js" lang="en" dir="ltr")
     meta(http-equiv='x-ua-compatible', content='ie=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title Portfolio Site
+    
+    //- imported Roboto Font
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
     link(rel='stylesheet', href='/static/css/foundation.css')
     link(rel='stylesheet', href='/static/css/style.css')
@@ -14,25 +17,24 @@ html(class="no-js" lang="en" dir="ltr")
         block sidebar
           br
           .cell.shrink
-            img.thumbnail(src='https://placehold.it/550x350')
+            img.thumbnail(src='/static/img/profile-pic.jpg')
           .cell.auto
 
-            //- Add your name here.
-            h5 Ricki Nguyen
-
-            //- Add text here to describe who you are, what you do, and why you are so aweome.
+            h4 RICKI NGUYEN
+              br
+              br
+              h6 A bit about me.
+            
             p.text-light
-              | Hello. I am a new programmer.
+              | Hello. I am from Toronto and I like to code. I taught myself coding and now I have skills in CSS, HTML, and JavaScript. I never thought I'd find a career I would be passionate about but life has a strange way of making you realize things, so here is my portfolio.
 
-            //- Add about page route to the href below. 
-            a(href='./about') Learn More →
+            a(href='./about') More About Me →
 
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large
         .title-bar-left
           button.menu-icon(type='button', data-toggle='my-info')
 
-          //- Add your name here.  This is for the mobile screen sized version.
           span.title-bar-title Ricki Nguyen
       block content
         

@@ -1,3 +1,9 @@
+/* change all fonts to Roboto */
+
+* {
+  font-family: 'Roboto', sans-serif !important;  
+}
+
 
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
@@ -58,9 +64,14 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  /* change background color of sidebar to gradient */
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  opacity: 80%;
   color: #fff;
-  box-shadow: none !important;
+  /* added box shadow to side nav */
+  box-shadow: 2px 10px 12px 4px rgba(0,0,0,1) !important;
 }
 
   .portfolio-me p{
@@ -71,7 +82,8 @@ a:hover{
   .portfolio-me a{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 600;
-    color: #555;
+    color: #999;
+    text-shadow: 1px 1px white;
     font-size: 13px;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
@@ -79,7 +91,17 @@ a:hover{
   }
 
   .portfolio-me a:hover{
-    color: #999;
+    color: white;
+  }
+
+  /* changed border radio to profile pic and hover scale */
+  .portfolio-me img{
+    border-radius: 5%;
+    transition: 0.3s ease-in-out;
+  }
+
+  .portfolio-me img:hover{
+    transform: scale(1.1);
   }
 
 .portfolio-breadcrumb{
@@ -88,6 +110,7 @@ a:hover{
   border-bottom: 1px solid #eaeaea;
 }
 
+/* add hover effect over back button */
  .portfolio-breadcrumb a{
    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
    font-weight: 600;
@@ -95,6 +118,12 @@ a:hover{
    letter-spacing: 2.5px;
    -webkit-text-transform: uppercase;
    text-transform: uppercase;
+   text-shadow: none;
+   transition: 0.2s ease-in-out;
+ }
+
+ .portfolio-breadcrumb a:hover{
+   text-shadow: 1px 1px black;
  }
 
 .portfolio-intro{
@@ -112,8 +141,18 @@ a:hover{
   padding: 10px 50px;
 }
 
+  /* add brightness effect to thumbnail on hover */
   .portfolio-index .thumbnail{
     margin-bottom: 5px;
+    border: none;
+    filter: brightness(50%);
+
+    transition: 0.3s ease-in-out;
+  }
+
+  .portfolio-index .thumbnail:hover{
+    filter: none;
+    transform: scale(1.1);
   }
 
   .portfolio-index a{
@@ -146,5 +185,12 @@ a:hover{
 }
 
 .portfolio-bio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     line-height: 25px;
+}
+
+.about-pic{
+  width: 60%;
 }
